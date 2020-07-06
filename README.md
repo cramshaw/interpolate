@@ -100,5 +100,13 @@ Tests are written using [pytest](https://docs.pytest.org/en/latest/contents.html
 To run tests, after installing dependencies:
 
 ```
-pytest
+poetry run pytest
+```
+
+### Formatting
+
+Black is used to enforce formatting.
+
+```
+poetry run black .
 ```
