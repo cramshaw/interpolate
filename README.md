@@ -1,6 +1,6 @@
 # Interpolation CLI
 
-This CLI is designed to take a csv file containing mutliple, equal length rows where each cell contains either a float, or the value 'nan'.
+This CLI is designed to take a csv file containing multiple, equal length rows where each cell contains either a float, or the value 'nan'.
 
 It will average non-diagonal neighbours (above, below, left and right) to interpolate a value for that cell.
 
@@ -37,7 +37,7 @@ i.e.
 poetry run int -I ./examples/input_test_data.csv
 ```
 
-### Pipx
+### PipX
 
 If you use [pipx](https://pipxproject.github.io/pipx/) to handle global installs, you can install this package as the `int` command.
 
@@ -63,7 +63,7 @@ docker run --rm -v $PWD/examples:/app/examples interpolate -I examples/input_tes
 
 Note: Input and output directories need to be mounted using `-v`.
 
-## Developement
+## Development
 
 ### Tests
 
