@@ -1,0 +1,8 @@
+**/*/__pycache__
+.pytest_cache
+dist/
+
+*.egg-info
+
+# Default output for example data
+examples/input_test_data_out.csv

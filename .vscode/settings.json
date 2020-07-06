@@ -1,0 +1,22 @@
+{
+  "python.pythonPath": "/Users/chrisramshaw/Library/Caches/pypoetry/virtualenvs/interpolate-nKtJ79RR-py3.7",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "python.sortImports.args": ["-rc"],
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [],
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "python.autoComplete.addBrackets": true,
+  "python.linting.flake8Enabled": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [],
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.enabled": true
+}
