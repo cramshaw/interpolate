@@ -12,8 +12,9 @@ interpolate -I <path_to_file> -O <path_to_output>
 
 #### Arguments
 
-- `-I`, `--input_path`: path to chosen input file
+- `-I`, `--input_path`: path to chosen input file (required)
 - `-O`, `--output_path`: path to write output
+  - default will be input path with `_out` injected. i.e. `my_file.csv` becomes `my_file_out.csv`.
 - `--help`: show help
 
 #### Example Input
