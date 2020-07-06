@@ -15,7 +15,7 @@ isort = "^5.0.3"
 flake8 = "^3.8.3"
 
 [tool.poetry.scripts]
-int = "interpolate.interpolate:main"
+interpolate = "interpolate.interpolate:main"
 
 [tool.isort]
 multi_line_output=3

@@ -5,4 +5,4 @@ dist/
 *.egg-info
 
 # Default output for example data
-examples/input_test_data_out.csv
+example_data/input_test_data_out.csv

@@ -11,7 +11,7 @@ from interpolate.interpolate import (
     validate_csv,
 )
 
-EXAMPLE_PATH = "./examples/input_test_data.csv"
+EXAMPLE_PATH = "./example_data/input_test_data.csv"
 INPUT = [
     ["37.454012", "95.071431", "73.199394", "59.865848", "nan"],
     ["15.599452", "5.808361", "86.617615", "60.111501", "70.807258"],

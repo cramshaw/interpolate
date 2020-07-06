@@ -1,7 +1,7 @@
 from interpolate.interpolate import command
 
-EXAMPLE_PATH = "./examples/input_test_data.csv"
-EXAMPLE_COMPLETE_PATH = "./examples/interpolated_test_data.csv"
+EXAMPLE_PATH = "./example_data/input_test_data.csv"
+EXAMPLE_COMPLETE_PATH = "./example_data/interpolated_test_data.csv"
 
 
 def test_main(tmpdir):
